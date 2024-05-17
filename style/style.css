@@ -6,4 +6,23 @@
 body{
     min-height: 100dvh;
     font-family: Arial,sans-serif;
+    display: grid;
+    
+}
+header{
+    height:200px;
+}
+nav{
+  font-size:30px;
+}
+hr{
+    height: 3px;
+    background-color: #333;
+}
+main{
+    height:450px;
+}
+footer{
+
+    height:150px;
 }
