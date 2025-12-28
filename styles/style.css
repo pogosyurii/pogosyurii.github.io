@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100dvh;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+#root {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+header{
+   border-bottom: 3px solid #d18f00;
+   height: 100px;
+   background: linear-gradient(to bottom left,#ecca80, #ffffff);
+}
+.head-h1{
+  color: #fdbe35;
+}
+.container{
+  position: relative;
+}
+.corner{
+  position: absolute;
+  top:0;
+  right: 0; 
+  /* background-color: #333; */
+  color: #ce8d00;
+  padding: 10px;
+  text-decoration: none;
+  border-left: 2px #d18f00 solid;
+  border-bottom: 2px #d18f00 solid;
+  border-radius: 6px;
+  width: 79px;
+}
+.sin{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 9px;
+  text-decoration: none;
+  border-left: 2px #d18f00 solid;
+  border-top: 2px #d18f00 solid;
+  color: #ce8d00;
+  border-radius: 6px;
+  width: 79px;
+  height: 40px;
+}
+#main-a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+h1 {
+  padding: 20px;
+  /* background-color: #333; */
+  text-align: center;
+}
+h2#main-h2 {
+  /* background-color: #ffffff; */
+  color: #ffae00;
+  border: #ffae00 solid 2px;
+  margin: 12px;
+  border-radius: 10px;
+  padding: 5px;
+  transition: 500ms;
+  scale: 1 1;
+}
+h2#main-h2:hover{
+  transition: 500ms;
+  scale: 1.1 1.1;
+}
+h2#main-h2:hover{
+ transition: 500ms;
+ scale: 1.1 1.1;
+}
+h2#main-h2{
+  transition: 500ms;
+  scale: 1 1;
+}
+footer {
+  padding: 10px;
+  background: linear-gradient(to bottom left,#ecca80, #ffffff);
+  text-align: center;
+  border-top: #d18f00 solid 3px;
+}
+h2.footer{
+  color: #a37000;
+}
+h3{
+  color: #af7800;
+}
+.link-parent {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+div#contact a {
+  display: inline-block;
+  padding: 10px;
+  color: #ce8d00;
+  text-decoration: none;
+}
+.link-parent {
+  color: #ce8d00;
+   display: grid;
+   grid-template-columns: repeat(4, auto);
+   gap: 0px;
+   & a{
+   border: #d18f00 solid 2px;
+   border-radius: 6px;
+   font-weight: 700
+}
+& span{
+   border: #d18f00 solid 2px;
+   border-radius: 6px;
+   padding: 10px;
+}
+}
+.gradient {
+  background: linear-gradient(to bottom left, #ffffff, #ecca80);
+}
